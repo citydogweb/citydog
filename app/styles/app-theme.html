@@ -20,18 +20,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
    */
 
   /* Application theme */
-
+/*var(--paper-orange-800);*/
   :root {
-    --dark-primary-color: #303F9F;
+    --dark-primary-color: var(--paper-orange-700);        /*700*/
+    --default-primary-color: var(--paper-orange-500);     /*500*/
+    --light-primary-color: var(--paper-orange-100);       /*100*/
+    --text-primary-color: #ffffff;  /*text/icons*/
+    --accent-color: #FF4081;              /*A200*/
+    --primary-background-color: var(--paper-orange-100);  /*100*/
+    --primary-text-color: #212121;
+    --secondary-text-color: #727272;
+    --disabled-text-color: #bdbdbd;
+    --divider-color: #B6B6B6;
+
+    /*--dark-primary-color: #303F9F;
     --default-primary-color: #3F51B5;
     --light-primary-color: #C5CAE9;
-    --text-primary-color: #ffffff; /*text/icons*/
+    --text-primary-color: #ffffff;
     --accent-color: #FF4081;
     --primary-background-color: #c5cae9;
     --primary-text-color: #212121;
     --secondary-text-color: #727272;
     --disabled-text-color: #bdbdbd;
-    --divider-color: #B6B6B6;
+    --divider-color: #B6B6B6;              */
 
     /* Components */
 
@@ -42,7 +53,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     /* paper-menu */
     --paper-menu-background-color: #fff;
-    --menu-link-color: #111111;
+    --menu-link-color: #111111;/*500*/
   }
 
   /* General styles */
